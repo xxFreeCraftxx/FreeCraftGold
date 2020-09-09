@@ -3,6 +3,12 @@
     "uuid": "5409bccc-47e5-4c23-a84c-f619c84423eb",
     "name": "GoldenMage",
     "level": 4,
-    "bypassesPlayerLimit": false
+    "bypassesPlayerLimit": true
+  },
+  {
+    "uuid": "9810a7b5-dc79-490d-b62b-7a44f75765a7",
+    "name": "gtrent",
+    "level": 4,
+    "bypassesPlayerLimit": true
   }
 ]
