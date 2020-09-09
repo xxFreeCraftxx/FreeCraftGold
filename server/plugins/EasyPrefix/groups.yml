@@ -1,0 +1,33 @@
+# 
+# +------------------------------------------------------+ #
+# |                     - Groups -                       | #
+# |               Plugin by Christian34	  	     	      | #
+# +------------------------------------------------------+ #
+groups:
+  default:
+    prefix: '&7'
+    suffix: '&f:'
+    chat-color: '&7'
+    join-msg: '&8» %ep_user_prefix%%player% &7joined the game'
+    quit-msg: '&8« %ep_user_prefix%%player% &7left the game'
+  Admin:
+    prefix: '&6Admin &7| &8'
+    suffix: '&f:'
+    chat-color: '&3'
+    chat-formatting: '&o'
+  Helper:
+    prefix: '&6Helper &7| &8'
+    suffix: '&f:'
+    chat-color: '&3'
+    chat-formatting: '&o'
+  Mod:
+    prefix: '&6Mod &7| &8'
+    suffix: '&f:'
+    chat-color: '&3'
+    chat-formatting: '&o'
+  Owner:
+    prefix: '&c&lOwner &7: &8'
+    suffix: '&f:'
+    chat-formatting: '&o'
+    chat-color: '&3'
+subgroups: {}

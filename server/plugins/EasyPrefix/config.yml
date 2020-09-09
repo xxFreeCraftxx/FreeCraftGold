@@ -1,0 +1,100 @@
+############################################################
+# +------------------------------------------------------+ #
+# |                     - Config -                       | #
+# |               Plugin by Christian34	  	      	     | #
+# +------------------------------------------------------+ #
+############################################################
+
+config:
+  enabled: true
+  # do not modify the version
+  version: 1.6.5
+  # default language (en_EN, de_DE, it_IT)
+  lang: en_EN
+  # connect multiple servers
+  sql:
+    enabled: false
+    host: localhost
+    port: 3306
+    database: EasyPrefix
+    username: username
+    password: password
+    table-prefix: ep
+  # allow easyprefix to set join and quit messages
+  # messages can be changed in 'groups.yml'
+  join-quit-messages:
+    # let easyprefix manage join and quit messages
+    enabled: true
+    # hide join/quit messages
+    hide-messages: false
+    # modify or enable/disable the sounds when a player joins/quits the game
+    sound:
+      # define who receives the sound | "all" for all online players; "player" for the player who joined/quit
+      receiver: all
+      join:
+        enabled: true
+        # sound_name; volume; pitch
+        sound: ENTITY_EXPERIENCE_ORB_PICKUP; 20; 1
+      quit:
+        enabled: true
+        # sound_name; volume; pitch
+        sound: ENTITY_EXPERIENCE_BOTTLE_THROW; 18; 1
+  user:
+    # allow players to create custom prefixes and suffixes
+    # requires permission EasyPrefix.custom.prefix or EasyPrefix.custom.suffix
+    # EasyPrefix.custom.gui shows icon in /ep settings
+    custom-layout:
+      enabled: false
+      # cool down for changing prefix or suffix in hours
+      # can be bypassed with permission EasyPrefix.custom.bypass
+      cooldown: 0.5
+      alias:
+        # requires permission EasyPrefix.custom.prefix
+        prefix: /prefix
+        # requires permission EasyPrefix.custom.suffix
+        suffix: /suffix
+  # groups can mixed with subgroups - please look up at my github wiki for more information
+  subgroups:
+    # show context menu for subgroups | only visible if necessary
+    enabled: true
+  # allow players to define their gender (placeholder: %ep_user_gender%) | works only if subgroups are enabled!
+  gender:
+    enabled: false
+    # force a player to select a gender
+    # true shows a message to select a gender on join
+    force-gender: false
+    types:
+      female:
+        displayname: '&5Female'
+      male:
+        displayname: '&9Male'
+      # yes, this is a thing (biologically proven) - please respect it #loveislove <3
+      intersex:
+        displayname: '&eIntersex'
+      # newgender:
+      #   displayname: 'name'
+  # settings for the gui
+  gui:
+    # specifies if all colors and formatting should be visible, even if the player has no permissions for it.
+    show-all-chatcolors: true
+  # settings for chat appearance
+  chat:
+    # allow easyprefix to handle colors and formattings
+    handle-colors: true
+    # set to false, if you use other chat plugins like EssentialsChat or MultiChat
+    # false requires vault!
+    handle-chat: true
+    color:
+      # requires permission EasyPrefix.color.rainbow
+      rainbow:
+        # please use valid chat colors, if you do not know the names, please lookup at
+        # https://minecraft.gamepedia.com/Formatting_codes#Color_codes
+        colors:
+        - 'YELLOW'
+        - 'BLUE'
+        - 'LIGHT_PURPLE'
+        - 'RED'
+        - 'DARK_AQUA'
+        - 'GOLD'
+        - 'GREEN'
+        - 'DARK_PURPLE'

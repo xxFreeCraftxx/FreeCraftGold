@@ -1,0 +1,6 @@
+use_teleport_effect: true
+use_teleport_sound: true
+teleport_effect_type: 1
+sound_effect_type: 1
+show_chat_notification: true
+chat_notification_text: WHOOSH!

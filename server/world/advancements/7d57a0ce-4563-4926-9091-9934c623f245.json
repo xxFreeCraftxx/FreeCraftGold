@@ -1,0 +1,51 @@
+{
+  "vanillatweaks:kill_empty_boats": {
+    "criteria": {
+      "tick": "2020-08-23 17:45:55 +0000"
+    },
+    "done": true
+  },
+  "vanillatweaks:root": {
+    "criteria": {
+      "tick": "2020-08-23 17:45:55 +0000"
+    },
+    "done": true
+  },
+  "vanillatweaks:wandering_trades": {
+    "criteria": {
+      "tick": "2020-08-23 17:45:55 +0000"
+    },
+    "done": true
+  },
+  "vanillatweaks:silence_mobs": {
+    "criteria": {
+      "tick": "2020-08-23 17:45:55 +0000"
+    },
+    "done": true
+  },
+  "vanillatweaks:more_mob_heads": {
+    "criteria": {
+      "tick": "2020-08-23 17:45:55 +0000"
+    },
+    "done": true
+  },
+  "vanillatweaks:dragon_drops": {
+    "criteria": {
+      "tick": "2020-08-23 17:45:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2020-08-23 17:45:55 +0000"
+    },
+    "done": false
+  },
+  "vanillatweaks:double_shulker_shells": {
+    "criteria": {
+      "tick": "2020-08-23 17:45:55 +0000"
+    },
+    "done": true
+  },
+  "DataVersion": 2578
+}

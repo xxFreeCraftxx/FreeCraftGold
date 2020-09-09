@@ -1,0 +1,1859 @@
+CubCustomDrops:
+  mobNames:
+    key:
+      '0': §aSpider
+      '1': §aCat
+      '2': §aHorse
+      '3': §aShulker
+      '4': §aSkeleton
+      '5': §aCreeper
+      '6': §aFox
+      '7': §aDonkey
+      '8': §aPufferfish
+      '9': §aEnderman
+      '10': §aSheep
+      '11': §aGiant
+      '12': §aChicken
+      '13': §aCod
+      '14': §aEndermite
+      '15': §aZombie Horse
+      '16': §aElder Guardian
+      '17': §aLlama
+      '18': §aZombie Villager
+      '19': §aDrowned
+      '20': §aPanda
+      '21': §aHusk
+      '22': §aMule
+      '23': §aGuardian
+      '24': §aSlime
+      '25': §aZoglin
+      '26': §aWither
+      '27': §aStrider
+      '28': §aSkeleton Horse
+      '29': §aMooshroom
+      '30': §aHoglin
+      '31': §aBlaze
+      '32': §aBat
+      '33': §aSquid
+      '34': §aSilverfish
+      '35': §aRabbit
+      '36': §aWandering trader
+      '37': §aOcelot
+      '38': §aPillager
+      '39': §aDolphin
+      '40': §aPig
+      '41': §aZombie pigman
+      '42': §aCow
+      '43': §aStray
+      '44': §aIron Golem
+      '45': §aVillager
+      '46': §aVindicator
+      '47': §aBee
+      '48': §aGhast
+      '49': §aTropical Fish
+      '50': §aSnowman
+      '51': §aCave Spider
+      '52': §aParrot
+      '53': §aPolar Bear
+      '54': §aPiglin
+      '55': §aWither skeleton
+      '56': §aTrader Llama
+      '57': §aSalmon
+      '58': §aZombie
+      '59': §aEvoker
+      '60': §aRavager
+      '61': §aTurtle
+      '62': §aEnder Dragon
+      '63': §aMagma Cube
+      '64': §aVex
+      '65': §aWolf
+      '66': §aPhantom
+      '67': §aWitch
+    get:
+      '0':
+        Name: §aSpider
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: &id001
+              ==: Color
+              RED: 0
+              BLUE: 0
+              GREEN: 255
+            DropChance: 110
+            WorldOverride: false
+      '1':
+        Name: §aCat
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '2':
+        Name: §aHorse
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '3':
+        Name: §aShulker
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '4':
+        Name: §aSkeleton
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '5':
+        Name: §aCreeper
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '6':
+        Name: §aFox
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '7':
+        Name: §aDonkey
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '8':
+        Name: §aPufferfish
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '9':
+        Name: §aEnderman
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '10':
+        Name: §aSheep
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '11':
+        Name: §aGiant
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '12':
+        Name: §aChicken
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '13':
+        Name: §aCod
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '14':
+        Name: §aEndermite
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '15':
+        Name: §aZombie Horse
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '16':
+        Name: §aElder Guardian
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '17':
+        Name: §aLlama
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '18':
+        Name: §aZombie Villager
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '19':
+        Name: §aDrowned
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '20':
+        Name: §aPanda
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '21':
+        Name: §aHusk
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '22':
+        Name: §aMule
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '23':
+        Name: §aGuardian
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '24':
+        Name: §aSlime
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '25':
+        Name: §aZoglin
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '26':
+        Name: §aWither
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '27':
+        Name: §aStrider
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '28':
+        Name: §aSkeleton Horse
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '29':
+        Name: §aMooshroom
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '30':
+        Name: §aHoglin
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '31':
+        Name: §aBlaze
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '32':
+        Name: §aBat
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '33':
+        Name: §aSquid
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '34':
+        Name: §aSilverfish
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '35':
+        Name: §aRabbit
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '36':
+        Name: §aWandering trader
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '37':
+        Name: §aOcelot
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '38':
+        Name: §aPillager
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '39':
+        Name: §aDolphin
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '40':
+        Name: §aPig
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '41':
+        Name: §aZombie pigman
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '42':
+        Name: §aCow
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '43':
+        Name: §aStray
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '44':
+        Name: §aIron Golem
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '45':
+        Name: §aVillager
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '46':
+        Name: §aVindicator
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '47':
+        Name: §aBee
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '48':
+        Name: §aGhast
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '49':
+        Name: §aTropical Fish
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '50':
+        Name: §aSnowman
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '51':
+        Name: §aCave Spider
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '52':
+        Name: §aParrot
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '53':
+        Name: §aPolar Bear
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '54':
+        Name: §aPiglin
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '55':
+        Name: §aWither skeleton
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '56':
+        Name: §aTrader Llama
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '57':
+        Name: §aSalmon
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '58':
+        Name: §aZombie
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '59':
+        Name: §aEvoker
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '60':
+        Name: §aRavager
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '61':
+        Name: §aTurtle
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '62':
+        Name: §aEnder Dragon
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '63':
+        Name: §aMagma Cube
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '64':
+        Name: §aVex
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '65':
+        Name: §aWolf
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '66':
+        Name: §aPhantom
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+      '67':
+        Name: §aWitch
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2578
+              type: FIREWORK_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: FIREWORK_EFFECT
+                display-name: §2§lStone Coin
+                lore:
+                - §b§l§oFreeCraft§eGold
+                enchants:
+                  MENDING: 1
+                ItemFlags:
+                - HIDE_ENCHANTS
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 110
+            WorldOverride: false
+  globalSettings:
+    LootingMultiplier: false
+    LootingAll: true
+    LootingM: 15
+    LootingA: 2
+    FortuneMultiplier: false
+    FortuneAll: false
+    FortuneM: 15
+    FortuneA: 0
+    GlobalWorlds:
+      '0': world
+      '1': world_nether
+      '2': world_the_end
+    LoadedOnce: true
+  afkFarm: false
