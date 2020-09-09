@@ -9465,7 +9465,7 @@ data-version: 2|2578
               slot: OFF_HAND
               uuid: fffe2879-0000-5f10-0000-328affff41e0
               operation: 0
-          internal: H4sIAAAAAAAAAC3MsQ5AMBRG4Z8S1UE8j5HYDV7gqpIGt0l7F28vTZztW44BDLrxDvaaWby8K50apd/RP56djXTIsBGziy30QiIucjIACo3mN8onKdRTuENETqEaKTnkOT5rLMNrYwAAAA==
+          internal: H4sIAAAAAAAAAC3JSw5AMBRG4d8rqgOxHkNibmADV5U0uE3aO7F7lTizL0cDGu1weXNOLE6ehY4C5UDRIq0GaiYRGzjq5Eyh/o38jgWq0V8+4Eshdxu627E1gXbpV2K26b2btcbRYwAAAA==
           blockMaterial: SHIELD
     '4':
       item1:
@@ -9788,7 +9788,7 @@ data-version: 2|2578
               slot: OFF_HAND
               uuid: fffe2879-0000-21d2-0000-2f55ffffbc5c
               operation: 0
-          internal: H4sIAAAAAAAAAFWNsQ5AMBRFb4qoDuJ7jMRu8ANPlTR4Tdq3+HuRGDjbyRmOAQzq7gh2H1i8XBNtGsovaE7PzkZapZ2J2cUKeiQRFzkZAEqjfB3qTBmKPhwh4uGb5J8y5B0lh+eLG2j/pn5+AAAA
+          internal: H4sIAAAAAAAAAF3JsQ5AMBRG4T9F0EE8j5HYDV7goqTBbdLexdurxCDOdvJpQKNqDzfvPYuVa6QtQdpSMIhUohhIxHgOOr4qkL8PdYYEWecO5/H0JfmTsgvq07KZPa3STMRsot2R25E1fgAAAA==
           blockMaterial: SHIELD
     '4':
       item1:
@@ -10101,7 +10101,7 @@ data-version: 2|2578
               slot: OFF_HAND
               uuid: fffe2879-0000-481e-0001-d983ffff6fc4
               operation: 0
-          internal: H4sIAAAAAAAAAHXOsQ5AMBSF4RMlqoN4HiOxG7zARUmD26S9i7cXiYHB2f58yzGAQdnsfto6FifnQKtG4mZUh2M7BVqkHonZhgK6JxEbOBoASiN/GskRFbLW7z7g3pvkn8YvKaQNRYv7Ei7ONpIWmQAAAA==
+          internal: H4sIAAAAAAAAAONiYOBi4HPKyU/Ods0rySypDElMZ2ZgcUosTmUASnEycAQklpSkFuUVcwH5zBwM7FA+A1NuMTMDq3N+Tn4RAwggS5XglkpCl2LKTGEQyM3MS00uSkwrsUpKzMtLBcoBACjzwxmZAAAA
           blockMaterial: SHIELD
     '4':
       item1:

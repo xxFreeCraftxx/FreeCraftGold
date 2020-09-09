@@ -1,249 +1,485 @@
-[09:20:48] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
-[09:20:48] [main/INFO]: Reloading ResourceManager: Default, bukkit, double shulker shells v1.3.0.zip, dragon drops v1.3.0.zip, wandering trades hermit edition v1.4.0.zip, kill empty boats v1.1.0.zip, more mob heads v2.8.1.zip, silence mobs v1.1.0.zip, Nether_Creepers_2.0.zip
-[09:20:50] [Worker-Main-11/INFO]: Loaded 7 recipes
-[09:20:52] [Server thread/INFO]: Starting minecraft server version 1.16.2
-[09:20:52] [Server thread/INFO]: Loading properties
-[09:20:52] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-379750e-43c7ff9 (MC: 1.16.2) (Implementing API version 1.16.2-R0.1-SNAPSHOT)
-[09:20:52] [Server thread/INFO]: Debug logging is disabled
-[09:20:52] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[09:20:52] [Server thread/INFO]: Using 4 threads for Netty based IO
-[09:20:52] [Server thread/WARN]: You specified a resource pack without providing a sha1 hash. Pack will be updated on the client only if you change the name of the pack.
-[09:20:52] [Server thread/INFO]: Default game type: SURVIVAL
-[09:20:52] [Server thread/INFO]: Generating keypair
-[09:20:53] [Server thread/INFO]: Starting Minecraft server on *:25565
-[09:20:53] [Server thread/INFO]: Using epoll channel type
-[09:20:54] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[09:20:58] [Server thread/WARN]: Legacy plugin SetHome v5.1.2 does not specify an api-version.
-[09:20:58] [Server thread/WARN]: Legacy plugin AFK v4.5.5 does not specify an api-version.
-[09:20:58] [Server thread/WARN]: Legacy plugin JustTPA v1.0.0 does not specify an api-version.
-[09:20:58] [Server thread/WARN]: Legacy plugin sleep-most v4.5.3 does not specify an api-version.
-[09:20:58] [Server thread/WARN]: Legacy plugin OpGuard v3.2.5 does not specify an api-version.
-[09:20:59] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v19.1
-[09:20:59] [Server thread/INFO]: [SetHome] Loading SetHome v5.1.2
-[09:20:59] [Server thread/INFO]: [AFK] Loading AFK v4.5.5
-[09:20:59] [Server thread/INFO]: [JustTPA] Loading JustTPA v1.0.0
-[09:20:59] [Server thread/INFO]: [FastLeafDecay] Loading FastLeafDecay v1.0
-[09:20:59] [Server thread/INFO]: [CubCustomDrops] Loading CubCustomDrops v5.5.0
-[09:20:59] [Server thread/INFO]: [sleep-most] Loading sleep-most v4.5.3
-[09:20:59] [Server thread/INFO]: [OpGuard] Loading OpGuard v3.2.5
-[09:20:59] [Server thread/INFO]: [PhantomLib] Loading PhantomLib v1.0.4-RELEASE
-[09:20:59] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
-[09:20:59] [Server thread/INFO]: [SimpleSpawn-Core] Loading SimpleSpawn-Core v1.0.3
-[09:20:59] [Server thread/INFO]: [Shopkeepers] Loading Shopkeepers v2.11.0
-[09:20:59] [Server thread/INFO]: [Shopkeepers] Loaded all plugin classes (446 ms)
-[09:20:59] [Server thread/INFO]: [Shopkeepers] Loading config.
-[09:20:59] [Server thread/INFO]: [Shopkeepers] Registering defaults.
-[09:21:00] [Server thread/INFO]: [LevelledMobs] Loading LevelledMobs v1.34.0-RELEASE
-[09:21:00] [Server thread/INFO]: [EasyPrefix] Loading EasyPrefix v1.6.6-R1
-[09:21:00] [Server thread/INFO]: [GriefPrevention] Loading GriefPrevention v16.13.0
-[09:21:00] [Server thread/INFO]: [PhantomLib] Enabling PhantomLib v1.0.4-RELEASE
-[09:21:00] [Server thread/INFO]: §b§lPhantomLib: §8(§3Startup§8) §7§8+---+ §f(Enable Started) §8+---+
-[09:21:00] [Server thread/INFO]: §b§lPhantomLib: §8(§3Startup §8- §31§8/§34§8) §7Loading '§bconfig.yml§7'...
-[09:21:00] [Server thread/INFO]: §b§lPhantomLib: §8(§3Startup §8- §32§8/§34§8) §7Registering events...
-[09:21:00] [Server thread/INFO]: §b§lPhantomLib: §8(§3Startup §8- §33§8/§34§8) §7Registering commands...
-[09:21:00] [Server thread/INFO]: §b§lPhantomLib: §8(§3Startup §8- §34§8/§34§8) §7Registering metrics...
-[09:21:00] [Server thread/INFO]: §b§lPhantomLib: §8(§3Startup§8) §7§8+---+ §f(Enable Complete, took §b23ms§f) §8+---+
-[09:21:00] [Server thread/INFO]: §b§lPhantomLib: §8(§3Update Checker§8) §7Checking for updates...
-[09:21:00] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[09:21:00] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[09:21:00] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[09:21:00] [Server thread/INFO]: [LevelledMobs] Enabling LevelledMobs v1.34.0-RELEASE
-[09:21:00] [Server thread/INFO]: §b§lLevelledMobs: §7§8+----+ §f(Enable Started) §8+----+
-[09:21:00] [Server thread/INFO]: §b§lLevelledMobs: §7§8(§3Startup §8- §31§8/§36§8) §7Checking compatibility...
-[09:21:00] [Server thread/INFO]: §b§lLevelledMobs: §7§8(§3Startup §8- §32§8/§36§8) §7Loading files...
-[09:21:00] [Server thread/INFO]: §b§lLevelledMobs: §7§8(§3Startup §8- §33§8/§36§8) §7Registering events...
-[09:21:00] [Server thread/INFO]: §b§lLevelledMobs: §7§8(§3Startup §8- §34§8/§36§8) §7Registering commands...
-[09:21:00] [Server thread/INFO]: §b§lLevelledMobs: §7§8(§3Startup §8- §35§8/§36§8) §7Hooking to other plugins...
-[09:21:00] [Server thread/INFO]: §b§lLevelledMobs: §7§8(§3Startup §8- §36§8/§36§8) §7Setting up bStats...
-[09:21:00] [Server thread/INFO]: §b§lLevelledMobs: §7§8+----+ §f(Enable Complete, took 276ms) §8+----+
-[09:21:00] [Server thread/INFO]: §b§lLevelledMobs: §7§8(§3Update Checker§8) §7Checking for updates...
-[09:21:00] [Server thread/INFO]: Preparing level "world"
-[09:21:00] [Server thread/INFO]: -------- World Settings For [world] --------
-[09:21:00] [Server thread/INFO]: Experience Merge Radius: 3.0
-[09:21:00] [Server thread/INFO]: Mob Spawn Range: 6
-[09:21:00] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[09:21:00] [Server thread/INFO]: Cane Growth Modifier: 100%
-[09:21:00] [Server thread/INFO]: Melon Growth Modifier: 100%
-[09:21:00] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[09:21:00] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[09:21:00] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[09:21:00] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[09:21:00] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[09:21:00] [Server thread/INFO]: Potato Growth Modifier: 100%
-[09:21:00] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[09:21:00] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[09:21:00] [Server thread/INFO]: Vine Growth Modifier: 100%
-[09:21:00] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[09:21:00] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[09:21:00] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[09:21:00] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[09:21:00] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[09:21:00] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[09:21:00] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[09:21:00] [Server thread/INFO]: Max TNT Explosions: 100
-[09:21:00] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[09:21:00] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[09:21:00] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[09:21:00] [Server thread/INFO]: Item Despawn Rate: 6000
-[09:21:00] [Server thread/INFO]: Item Merge Radius: 2.5
-[09:21:00] [Server thread/INFO]: View Distance: 10
-[09:21:00] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[09:21:00] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[09:21:00] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[09:21:00] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[09:21:00] [Server thread/INFO]: Experience Merge Radius: 3.0
-[09:21:00] [Server thread/INFO]: Mob Spawn Range: 6
-[09:21:00] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[09:21:00] [Server thread/INFO]: Cane Growth Modifier: 100%
-[09:21:00] [Server thread/INFO]: Melon Growth Modifier: 100%
-[09:21:00] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[09:21:00] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[09:21:00] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[09:21:00] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[09:21:00] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[09:21:00] [Server thread/INFO]: Potato Growth Modifier: 100%
-[09:21:00] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[09:21:00] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[09:21:00] [Server thread/INFO]: Vine Growth Modifier: 100%
-[09:21:00] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[09:21:00] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[09:21:00] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[09:21:00] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[09:21:00] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[09:21:00] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[09:21:00] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[09:21:00] [Server thread/INFO]: Max TNT Explosions: 100
-[09:21:00] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[09:21:00] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[09:21:00] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[09:21:00] [Server thread/INFO]: Item Despawn Rate: 6000
-[09:21:00] [Server thread/INFO]: Item Merge Radius: 2.5
-[09:21:00] [Server thread/INFO]: View Distance: 10
-[09:21:00] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[09:21:00] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[09:21:00] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[09:21:00] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[09:21:00] [Server thread/INFO]: Experience Merge Radius: 3.0
-[09:21:00] [Server thread/INFO]: Mob Spawn Range: 6
-[09:21:00] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[09:21:00] [Server thread/INFO]: Cane Growth Modifier: 100%
-[09:21:00] [Server thread/INFO]: Melon Growth Modifier: 100%
-[09:21:00] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[09:21:00] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[09:21:00] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[09:21:00] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[09:21:00] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[09:21:00] [Server thread/INFO]: Potato Growth Modifier: 100%
-[09:21:00] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[09:21:00] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[09:21:00] [Server thread/INFO]: Vine Growth Modifier: 100%
-[09:21:00] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[09:21:00] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[09:21:00] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[09:21:00] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[09:21:00] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[09:21:00] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[09:21:00] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[09:21:00] [Server thread/INFO]: Max TNT Explosions: 100
-[09:21:00] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[09:21:00] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[09:21:00] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[09:21:00] [Server thread/INFO]: Item Despawn Rate: 6000
-[09:21:00] [Server thread/INFO]: Item Merge Radius: 2.5
-[09:21:00] [Server thread/INFO]: View Distance: 10
-[09:21:00] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[09:21:00] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[09:21:00] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[09:21:01] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[09:21:02] [Server thread/INFO]: Preparing spawn area: 0%
-[09:21:02] [Server thread/INFO]: Preparing spawn area: 0%
-[09:21:02] [Server thread/INFO]: Preparing spawn area: 0%
-[09:21:02] [Server thread/INFO]: Preparing spawn area: 0%
-[09:21:03] [Server thread/INFO]: Preparing spawn area: 43%
-[09:21:03] [Server thread/INFO]: Time elapsed: 2614 ms
-[09:21:03] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[09:21:04] [Server thread/INFO]: Preparing spawn area: 0%
-[09:21:04] [Server thread/INFO]: Preparing spawn area: 0%
-[09:21:04] [Server thread/INFO]: Preparing spawn area: 0%
-[09:21:05] [Server thread/INFO]: Time elapsed: 1596 ms
-[09:21:05] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[09:21:05] [Server thread/INFO]: Preparing spawn area: 0%
-[09:21:05] [Server thread/INFO]: Preparing spawn area: 0%
-[09:21:06] [Server thread/INFO]: Time elapsed: 906 ms
-[09:21:06] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v19.1
-[09:21:06] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled!
-[09:21:06] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
-[09:21:06] [Server thread/INFO]: --------------------
-[09:21:06] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
-[09:21:06] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
-[09:21:06] [Server thread/INFO]: --------------------
-[09:21:06] [Server thread/INFO]: [SetHome] Enabling SetHome v5.1.2
-[09:21:06] [Server thread/INFO]: [AFK] Enabling AFK v4.5.5
-[09:21:06] [Server thread/INFO]: [JustTPA] Enabling JustTPA v1.0.0
-[09:21:06] [Server thread/INFO]: [JustTPA] JustTPA plugin has been enabled!
-[09:21:06] [Server thread/INFO]: [FastLeafDecay] Enabling FastLeafDecay v1.0
-[09:21:06] [Server thread/INFO]: [CubCustomDrops] Enabling CubCustomDrops v5.5.0
-[09:21:07] [Server thread/INFO]: [sleep-most] Enabling sleep-most v4.5.3
-[09:21:07] [Server thread/INFO]: [OpGuard] Enabling OpGuard v3.2.5
-[09:21:07] [Server thread/INFO]: [SimpleSpawn-Core] Enabling SimpleSpawn-Core v1.0.3
-[09:21:07] [Server thread/INFO]: [Shopkeepers] Enabling Shopkeepers v2.11.0
-[09:21:07] [Server thread/INFO]: [Shopkeepers] Loading data of 33 shopkeepers..
-[09:21:08] [Server thread/INFO]: [EasyPrefix] Enabling EasyPrefix v1.6.6-R1
-[09:21:08] [Server thread/INFO]: [0;37;22m[[0;35;22mEasyPrefix[0;37;22m] [0;36;1mPlugin has been enabled! [0;36;1mVersion: [0;37;22m1.6.6-R1[m
-[09:21:08] [Server thread/INFO]: [0;37;22m[[0;35;22mEasyPrefix[0;37;22m] [0;36;1mIf you like the plugin or you have suggestions, please write a review on spigotmc.org![m
-[09:21:08] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.13.0
-[09:21:08] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
-[09:21:08] [Server thread/INFO]: [GriefPrevention] 22 total claims loaded.
-[09:21:08] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
-[09:21:08] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
-[09:21:08] [Server thread/INFO]: [GriefPrevention] Boot finished.
-[09:21:08] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[09:21:08] [Server thread/INFO]: Done (8.480s)! For help, type "help"
-[09:21:08] [Craft Scheduler Thread - 4/INFO]: [Vault] Checking for Updates ... 
-[09:21:09] [Craft Scheduler Thread - 2/INFO]: UPDATE FOUND: A newer version of sleep-most is available to download!
-[09:21:09] [Craft Scheduler Thread - 1/INFO]: §b§lLevelledMobs: §7§8(§3Update Checker§8) §7You're running the latest version.
-[09:21:09] [Craft Scheduler Thread - 0/INFO]: §b§lPhantomLib: §8(§3Update Checker§8) §7You're running the latest version '§b1.0.4-RELEASE§7'.
-[09:21:09] [Craft Scheduler Thread - 4/INFO]: [Vault] No new version available
-[09:21:09] [Thread-12/INFO]: [CoreProtect] No donation key found. Please check config.yml.
-[09:21:10] [Thread-12/INFO]: --------------------
-[09:21:10] [Thread-12/INFO]: [CoreProtect] Version 19.2 is now available.
-[09:21:10] [Thread-12/INFO]: [CoreProtect] Download: www.coreprotect.net/download/
-[09:21:10] [Thread-12/INFO]: --------------------
-[09:32:49] [Server thread/INFO]: No player was found
-[10:07:16] [Server thread/INFO]: No player was found
-[10:31:17] [Server thread/INFO]: No player was found
-[10:41:25] [Server thread/INFO]: Stopping the server
-[10:41:25] [Server thread/INFO]: Stopping server
-[10:41:25] [Server thread/INFO]: [GriefPrevention] Disabling GriefPrevention v16.13.0
-[10:41:25] [Server thread/INFO]: [GriefPrevention] GriefPrevention disabled.
-[10:41:25] [Server thread/INFO]: [EasyPrefix] Disabling EasyPrefix v1.6.6-R1
-[10:41:25] [Server thread/INFO]: [LevelledMobs] Disabling LevelledMobs v1.34.0-RELEASE
-[10:41:25] [Server thread/INFO]: [Shopkeepers] Disabling Shopkeepers v2.11.0
-[10:41:25] [Server thread/INFO]: [SimpleSpawn-Core] Disabling SimpleSpawn-Core v1.0.3
-[10:41:25] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[10:41:25] [Server thread/INFO]: [PhantomLib] Disabling PhantomLib v1.0.4-RELEASE
-[10:41:25] [Server thread/INFO]: §b§lPhantomLib: §8(§3Shutdown§8) §7§8+---+ §f(Disable Started) §8+---+
-[10:41:25] [Server thread/INFO]: §b§lPhantomLib: §8(§3Shutdown §8- §31§8/§31§8) §7Unregistering listeners..
-[10:41:25] [Server thread/INFO]: §b§lPhantomLib: §8(§3Shutdown§8) §7§8+---+ §f(Disable Complete, took §b1ms§f) §8+---+
-[10:41:25] [Server thread/INFO]: [OpGuard] Disabling OpGuard v3.2.5
-[10:41:25] [Server thread/INFO]: [sleep-most] Disabling sleep-most v4.5.3
-[10:41:25] [Server thread/INFO]: [CubCustomDrops] Disabling CubCustomDrops v5.5.0
-[10:41:25] [Server thread/INFO]: [FastLeafDecay] Disabling FastLeafDecay v1.0
-[10:41:25] [Server thread/INFO]: [JustTPA] Disabling JustTPA v1.0.0
-[10:41:25] [Server thread/INFO]: [JustTPA] JustTPA plugin has been disabled!
-[10:41:25] [Server thread/INFO]: [AFK] Disabling AFK v4.5.5
-[10:41:25] [Server thread/INFO]: [SetHome] Disabling SetHome v5.1.2
-[10:41:25] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v19.1
-[10:41:25] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
-[10:41:26] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v19.1
-[10:41:26] [Server thread/INFO]: Saving players
-[10:41:26] [Server thread/INFO]: Saving worlds
-[10:41:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[10:41:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[10:41:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[10:41:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[10:41:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[10:41:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[10:41:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[10:41:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[10:41:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01:01:17] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
+[01:01:18] [main/INFO]: Reloading ResourceManager: Default, bukkit, double shulker shells v1.3.0.zip, dragon drops v1.3.0.zip, wandering trades hermit edition v1.4.0.zip, kill empty boats v1.1.0.zip, more mob heads v2.8.1.zip, silence mobs v1.1.0.zip, Nether_Creepers_2.0.zip
+[01:01:21] [Server-Worker-3/INFO]: Loaded 7 recipes
+[01:01:25] [Server thread/INFO]: Starting minecraft server version 1.16.2
+[01:01:25] [Server thread/INFO]: Loading properties
+[01:01:25] [Server thread/INFO]: This server is running Tuinity version git-Tuinity-"4468be2" (MC: 1.16.2) (Implementing API version 1.16.2-R0.1-SNAPSHOT)
+[01:01:26] [Server thread/INFO]: Debug logging is disabled
+[01:01:26] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:01:26] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:01:26] [Server thread/WARN]: You specified a resource pack without providing a sha1 hash. Pack will be updated on the client only if you change the name of the pack.
+[01:01:26] [Server thread/INFO]: Default game type: SURVIVAL
+[01:01:26] [Server thread/INFO]: Generating keypair
+[01:01:27] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:01:27] [Server thread/INFO]: Using default channel type
+[01:01:29] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[01:01:37] [Server thread/WARN]: Legacy plugin SetHome v5.1.2 does not specify an api-version.
+[01:01:37] [Server thread/WARN]: Legacy plugin AFK v4.5.5 does not specify an api-version.
+[01:01:37] [Server thread/WARN]: Legacy plugin sleep-most v4.5.3 does not specify an api-version.
+[01:01:37] [Server thread/WARN]: Legacy plugin OpGuard v3.2.5 does not specify an api-version.
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Injector platform set to: InjectorBukkit
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Injecting NMS classes...
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Injecting WorldEdit classes...
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.util.eventbus.EventBus
+[01:01:38] [Server thread/WARN]: [WorldEdit] Loaded class org.primesoft.asyncworldedit.injector.injected.util.eventbus.IDispatchableEventBus from AsyncWorldEdit v3.7.5 which is not a depend, softdepend or loadbefore of this plugin.
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.math.BlockVector2
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.math.BlockVector3
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.math.Vector2
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.math.Vector3
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.world.block.BlockStateHolder
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.world.block.BaseBlock
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.world.block.BlockState
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.entity.BaseEntity
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.util.Location
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.world.biome.BiomeType
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.world.weather.WeatherType
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.EditSession
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.extent.AbstractDelegateExtent
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.function.operation.Operations
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.extent.clipboard.BlockArrayClipboard
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.extension.platform.PlayerProxy
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.util.collection.LocatedBlockList
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.extent.reorder.MultiStageReorder
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.extent.reorder.ChunkBatchingExtent
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.regions.AbstractRegion
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.regions.EllipsoidRegion
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.regions.ConvexPolyhedralRegion
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.regions.TransformRegion
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.regions.RegionIntersection
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.regions.NullRegion
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.regions.Polygonal2DRegion
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.regions.CylinderRegion
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.regions.CuboidRegion
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.command.SnapshotUtilCommands
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.command.ScriptingCommands
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.command.SchematicCommands
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.command.RegionCommands
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.command.UtilityCommandsRegistration
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.bukkit.BukkitEntity
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.command.RegionCommandsRegistration
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.function.mask.AbstractExtentMask
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.LocalSession
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.session.SessionManager
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.extent.ChangeSetExtent
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.extent.world.ChunkLoadingExtent
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.command.tool.BrushTool
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.command.tool.BlockReplacer
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.command.tool.FloodFillTool
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.command.tool.TreePlanter
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.command.tool.AreaPickaxe
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.command.tool.RecursivePickaxe
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.WorldEdit
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.function.entity.ExtentEntityCopy
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.function.block.ExtentBlockCopy
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.function.block.BlockReplace
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.function.operation.ForwardExtentCopy
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.function.operation.SetLocatedBlocks
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.function.biome.BiomeReplace
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.function.biome.ExtentBiomeCopy
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.function.factory.Deform$DeformOperation
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.function.factory.Paint
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.function.mask.BiomeMask2D
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.function.pattern.AbstractExtentPattern
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.regions.iterator.RegionIterator
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.regions.shape.ArbitraryShape
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.function.factory.Apply
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.function.visitor.RegionVisitor
+[01:01:38] [Server thread/INFO]: [AsyncWorldEdit] Creating class org/primesoft/asyncworldedit/worldedit/entity/PlayerWrapper
+[01:01:39] [Server thread/INFO]: [AsyncWorldEdit] Creating class org/primesoft/asyncworldedit/worldedit/entity/NoPermsPlayer
+[01:01:39] [Server thread/INFO]: [AsyncWorldEdit] Creating class org/primesoft/asyncworldedit/worldedit/extension/platform/NoPermsActor
+[01:01:39] [Server thread/INFO]: [AsyncWorldEdit] Creating class org/primesoft/asyncworldedit/injector/injected/entity/IPlayerFactory
+[01:01:39] [Server thread/INFO]: [AsyncWorldEdit] Creating class org/primesoft/asyncworldedit/injector/injected/extension/platform/IActorFactory
+[01:01:39] [Server thread/INFO]: [AsyncWorldEdit] Injector Enabled
+[01:01:39] [Server thread/INFO]: [AsyncWorldEdit] New class factory set to: org.primesoft.asyncworldedit.asyncinjector.async.AsyncClassFactory
+[01:01:39] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v4.1
+[01:01:39] [Server thread/INFO]: [SetHome] Loading SetHome v5.1.2
+[01:01:39] [Server thread/INFO]: [JukeLooper] Loading JukeLooper v1.3
+[01:01:39] [Server thread/INFO]: [AFK] Loading AFK v4.5.5
+[01:01:39] [Server thread/INFO]: [FastLeafDecay] Loading FastLeafDecay v1.0
+[01:01:39] [Server thread/INFO]: [CubCustomDrops] Loading CubCustomDrops v5.5.0
+[01:01:39] [Server thread/INFO]: [sleep-most] Loading sleep-most v4.5.3
+[01:01:39] [Server thread/INFO]: [OpGuard] Loading OpGuard v3.2.5
+[01:01:39] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.1.6
+[01:01:39] [Server thread/INFO]: [LimitPillagers] Loading LimitPillagers v2.13.0
+[01:01:39] [Server thread/INFO]: [PhantomLib] Loading PhantomLib v1.0.4-RELEASE
+[01:01:39] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[01:01:39] [Server thread/INFO]: [SimpleSpawn-Core] Loading SimpleSpawn-Core v1.0.3
+[01:01:39] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.0-beta-02+d10d7d6
+[01:01:40] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@d24801b]
+[01:01:40] [Server thread/INFO]: [AsyncWorldEdit] Loading AsyncWorldEdit v3.7.5
+[01:01:40] [Server thread/INFO]: [AsyncWorldEdit] Plugin installed
+[01:01:40] [Server thread/INFO]: [Shopkeepers] Loading Shopkeepers v2.11.0
+[01:01:41] [Server thread/INFO]: [Shopkeepers] Loaded all plugin classes (428 ms)
+[01:01:41] [Server thread/INFO]: [Shopkeepers] Loading config.
+[01:01:41] [Server thread/INFO]: [Shopkeepers] Registering defaults.
+[01:01:41] [Server thread/INFO]: [LevelledMobs] Loading LevelledMobs v1.34.0-RELEASE
+[01:01:41] [Server thread/INFO]: [TheNewEconomy] Loading TheNewEconomy v0.1.1.9
+[01:01:45] [Server thread/INFO]: [TheNewEconomy] Loading The New Economy with Java Version: 1.8.0_251
+[01:01:45] [Server thread/INFO]: [TheNewEconomy] Hooked into Vault
+[01:01:45] [Server thread/INFO]: [EasyPrefix] Loading EasyPrefix v1.6.6-R1
+[01:01:45] [Server thread/INFO]: [GriefPrevention] Loading GriefPrevention v16.13.0
+[01:01:45] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v19.1
+[01:01:45] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:01:45] [Server thread/INFO]: [LimitPillagers] Enabling LimitPillagers v2.13.0
+[01:01:45] [Server thread/INFO]: [LimitPillagers] Registering commands...
+[01:01:45] [Server thread/INFO]: [LimitPillagers] Registering listeners...
+[01:01:45] [Server thread/INFO]: [LimitPillagers] Loading config.yml...
+[01:01:45] [Server thread/INFO]: [LimitPillagers] Registering metrics...
+[01:01:45] [Server thread/INFO]: [LimitPillagers] 
+[01:01:45] [Server thread/INFO]: [LimitPillagers] If you are still having Pillager related lag after using this plugin you can do the following:
+[01:01:45] [Server thread/INFO]: [LimitPillagers] - Increase the limiter check distance between Pillagers
+[01:01:45] [Server thread/INFO]: [LimitPillagers] - Lower the stop at amount of the limiter
+[01:01:45] [Server thread/INFO]: [LimitPillagers] - Enable the remover which will remove all Pillagers in future loaded chunks (Good for if you have already have mass pillagers saved in unloaded chunks before this plugin)
+[01:01:45] [Server thread/INFO]: [LimitPillagers] - Enable the stopper to remove all future Pillager spawners (Last resort)
+[01:01:45] [Server thread/INFO]: [LimitPillagers] 
+[01:01:45] [Server thread/INFO]: [LimitPillagers] I also HIGHLY recommend to follow this guide for an overall increase of performance: https://www.spigotmc.org/threads/283181/
+[01:01:45] [Server thread/INFO]: [LimitPillagers] 
+[01:01:45] [Server thread/INFO]: [LimitPillagers] LimitPillagers v2.13.0 Enabled in 222 ms
+[01:01:45] [Server thread/INFO]: [PhantomLib] Enabling PhantomLib v1.0.4-RELEASE
+[01:01:45] [Server thread/INFO]: PhantomLib: (Startup) +---+ (Enable Started) +---+
+[01:01:45] [Server thread/INFO]: PhantomLib: (Startup - 1/4) Loading 'config.yml'...
+[01:01:45] [Server thread/INFO]: PhantomLib: (Startup - 2/4) Registering events...
+[01:01:45] [Server thread/INFO]: PhantomLib: (Startup - 3/4) Registering commands...
+[01:01:45] [Server thread/INFO]: PhantomLib: (Startup - 4/4) Registering metrics...
+[01:01:45] [Server thread/INFO]: PhantomLib: (Startup) +---+ (Enable Complete, took 229ms) +---+
+[01:01:46] [Server thread/INFO]: PhantomLib: (Update Checker) Checking for updates...
+[01:01:46] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[01:01:46] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[01:01:46] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[01:01:46] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.0-beta-02+d10d7d6
+[01:01:46] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[01:01:46] [Server thread/WARN]: 
+**********************************************
+** This WorldEdit version does not fully support your version of Bukkit.
+**
+** When working with blocks or undoing, chests will be empty, signs
+** will be blank, and so on. There will be no support for entity
+** and block property-related functions.
+**
+** Please see https://worldedit.enginehub.org/en/latest/faq/#bukkit-adapters
+**********************************************
+
+[01:01:48] [Server thread/INFO]: [AsyncWorldEdit] Enabling AsyncWorldEdit v3.7.5
+[01:01:48] [Server thread/INFO]: [AsyncWorldEdit] Platform set to Bukkit API
+[01:01:48] [Server thread/INFO]: [AsyncWorldEdit] ===================================================================================
+[01:01:48] [Server thread/INFO]: [AsyncWorldEdit] =     ___                         _       __           __    ________    ___ __   =
+[01:01:48] [Server thread/INFO]: [AsyncWorldEdit] =    /   |  _______  ______  ____| |     / /___  _____/ /___/ / ____/___/ (_) /_  =
+[01:01:48] [Server thread/INFO]: [AsyncWorldEdit] =   / /| | / ___/ / / / __ \/ ___/ | /| / / __ \/ ___/ / __  / __/ / __  / / __/  =
+[01:01:48] [Server thread/INFO]: [AsyncWorldEdit] =  / ___ |(__  ) /_/ / / / / /__ | |/ |/ / /_/ / /  / / /_/ / /___/ /_/ / / /_    =
+[01:01:48] [Server thread/INFO]: [AsyncWorldEdit] = /_/  |_/____/\__, /_/ /_/\___/ |__/|__/\____/_/  /_/\__,_/_____/\__,_/_/\__/    =
+[01:01:48] [Server thread/INFO]: [AsyncWorldEdit] =             /____/                                                              =
+[01:01:48] [Server thread/INFO]: [AsyncWorldEdit] = Author: SBPrime                                                                 =
+[01:01:48] [Server thread/INFO]: [AsyncWorldEdit] =                                ________________                                 =
+[01:01:48] [Server thread/INFO]: [AsyncWorldEdit] =                            ___/  free version  \___                             =
+[01:01:48] [Server thread/INFO]: [AsyncWorldEdit] ===================================================================================
+[01:01:48] [Server thread/INFO]: [AsyncWorldEdit] Initializing WorldEdit.
+[01:01:48] [Server thread/INFO]: [AsyncWorldEdit] No matching adapter found for Bukkit.v1_16_R2, DirectChunkAPI disabled
+[01:01:48] [Server thread/INFO]: [AsyncWorldEdit] PlotMeFix set to class org.primesoft.asyncworldedit.plotme.NullFix.
+[01:01:48] [Server thread/INFO]: [AsyncWorldEdit] Enabled
+[01:01:48] [Server thread/INFO]: [LevelledMobs] Enabling LevelledMobs v1.34.0-RELEASE
+[01:01:48] [Server thread/INFO]: LevelledMobs: +----+ (Enable Started) +----+
+[01:01:48] [Server thread/INFO]: LevelledMobs: (Startup - 1/6) Checking compatibility...
+[01:01:48] [Server thread/INFO]: LevelledMobs: (Startup - 2/6) Loading files...
+[01:01:48] [AWE:Cron:undoCleanup/INFO]: [AsyncWorldEdit] Undo cleanup started...
+[01:01:48] [AWE:Cron:undoCleanup/INFO]: [AsyncWorldEdit] ...undo cleanup done.
+[01:01:48] [Server thread/INFO]: LevelledMobs: (Startup - 3/6) Registering events...
+[01:01:48] [Server thread/INFO]: LevelledMobs: (Startup - 4/6) Registering commands...
+[01:01:48] [Server thread/INFO]: LevelledMobs: (Startup - 5/6) Hooking to other plugins...
+[01:01:48] [Server thread/INFO]: LevelledMobs: (Startup - 6/6) Setting up bStats...
+[01:01:48] [Server thread/INFO]: LevelledMobs: +----+ (Enable Complete, took 317ms) +----+
+[01:01:48] [Server thread/INFO]: LevelledMobs: (Update Checker) Checking for updates...
+[01:01:48] [Server thread/INFO]: Preparing level "world"
+[01:01:48] [Server thread/INFO]: -------- World Settings For [world] --------
+[01:01:48] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[01:01:48] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01:01:48] [Server thread/INFO]: Item Despawn Rate: 6000
+[01:01:48] [Server thread/INFO]: Item Merge Radius: 4.0
+[01:01:48] [Server thread/INFO]: View Distance: 5
+[01:01:48] [Server thread/INFO]: Arrow Despawn Rate: 300 Trident Respawn Rate:1200
+[01:01:48] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[01:01:48] [Server thread/INFO]: Mob Spawn Range: 6
+[01:01:48] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[01:01:48] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[01:01:48] [Server thread/INFO]: Experience Merge Radius: 6.0
+[01:01:48] [Server thread/INFO]: Entity Activation Range: An 16 / Mo 24 / Ra 48 / Mi 8 / Tiv false
+[01:01:48] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[01:01:48] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[01:01:48] [Server thread/INFO]: Cane Growth Modifier: 100%
+[01:01:48] [Server thread/INFO]: Melon Growth Modifier: 100%
+[01:01:48] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[01:01:48] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[01:01:48] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[01:01:48] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[01:01:48] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[01:01:48] [Server thread/INFO]: Potato Growth Modifier: 100%
+[01:01:48] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[01:01:48] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[01:01:48] [Server thread/INFO]: Vine Growth Modifier: 100%
+[01:01:48] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[01:01:48] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[01:01:48] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[01:01:48] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[01:01:48] [Server thread/INFO]: Max TNT Explosions: 100
+[01:01:48] [Server thread/INFO]: Tile Max Tick Time: 1000ms Entity max Tick Time: 1000ms
+[01:01:49] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[01:01:49] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[01:01:49] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[01:01:49] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01:01:49] [Server thread/INFO]: Item Despawn Rate: 6000
+[01:01:49] [Server thread/INFO]: Item Merge Radius: 4.0
+[01:01:49] [Server thread/INFO]: View Distance: 5
+[01:01:49] [Server thread/INFO]: Arrow Despawn Rate: 300 Trident Respawn Rate:1200
+[01:01:49] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[01:01:49] [Server thread/INFO]: Mob Spawn Range: 6
+[01:01:49] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[01:01:49] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[01:01:49] [Server thread/INFO]: Experience Merge Radius: 6.0
+[01:01:49] [Server thread/INFO]: Entity Activation Range: An 16 / Mo 24 / Ra 48 / Mi 8 / Tiv false
+[01:01:49] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[01:01:49] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[01:01:49] [Server thread/INFO]: Cane Growth Modifier: 100%
+[01:01:49] [Server thread/INFO]: Melon Growth Modifier: 100%
+[01:01:49] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[01:01:49] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[01:01:49] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[01:01:49] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[01:01:49] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[01:01:49] [Server thread/INFO]: Potato Growth Modifier: 100%
+[01:01:49] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[01:01:49] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[01:01:49] [Server thread/INFO]: Vine Growth Modifier: 100%
+[01:01:49] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[01:01:49] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[01:01:49] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[01:01:49] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[01:01:49] [Server thread/INFO]: Max TNT Explosions: 100
+[01:01:49] [Server thread/INFO]: Tile Max Tick Time: 1000ms Entity max Tick Time: 1000ms
+[01:01:49] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[01:01:49] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[01:01:49] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01:01:49] [Server thread/INFO]: Item Despawn Rate: 6000
+[01:01:49] [Server thread/INFO]: Item Merge Radius: 4.0
+[01:01:49] [Server thread/INFO]: View Distance: 5
+[01:01:49] [Server thread/INFO]: Arrow Despawn Rate: 300 Trident Respawn Rate:1200
+[01:01:49] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[01:01:49] [Server thread/INFO]: Mob Spawn Range: 6
+[01:01:49] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[01:01:49] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[01:01:49] [Server thread/INFO]: Experience Merge Radius: 6.0
+[01:01:49] [Server thread/INFO]: Entity Activation Range: An 16 / Mo 24 / Ra 48 / Mi 8 / Tiv false
+[01:01:49] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[01:01:49] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[01:01:49] [Server thread/INFO]: Cane Growth Modifier: 100%
+[01:01:49] [Server thread/INFO]: Melon Growth Modifier: 100%
+[01:01:49] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[01:01:49] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[01:01:49] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[01:01:49] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[01:01:49] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[01:01:49] [Server thread/INFO]: Potato Growth Modifier: 100%
+[01:01:49] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[01:01:49] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[01:01:49] [Server thread/INFO]: Vine Growth Modifier: 100%
+[01:01:49] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[01:01:49] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[01:01:49] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[01:01:49] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[01:01:49] [Server thread/INFO]: Max TNT Explosions: 100
+[01:01:49] [Server thread/INFO]: Tile Max Tick Time: 1000ms Entity max Tick Time: 1000ms
+[01:01:50] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:01:51] [Server thread/INFO]: Loaded 0 spawn chunks for world world
+[01:01:51] [Server thread/INFO]: Time elapsed: 1064 ms
+[01:01:51] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[01:01:51] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
+[01:01:51] [Server thread/INFO]: Time elapsed: 152 ms
+[01:01:51] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[01:01:51] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
+[01:01:51] [Server thread/INFO]: Time elapsed: 327 ms
+[01:01:51] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v4.1
+[01:01:51] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
+[01:01:51] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been enabled on version 4.1
+[01:01:51] [Server thread/INFO]: [SimpleTpa] SimpleTpa is sponsored by PloxHost | 1$/GB | The Cheapest Hosting
+[01:01:51] [Server thread/INFO]: [SimpleTpa] Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[01:01:51] [Server thread/INFO]: [SetHome] Enabling SetHome v5.1.2*
+[01:01:51] [Server thread/INFO]: [JukeLooper] Enabling JukeLooper v1.3
+[01:01:51] [Server thread/INFO]: [AFK] Enabling AFK v4.5.5*
+[01:01:51] [Server thread/INFO]: [FastLeafDecay] Enabling FastLeafDecay v1.0
+[01:01:52] [Server thread/INFO]: [CubCustomDrops] Enabling CubCustomDrops v5.5.0
+[01:01:52] [Thread-17/INFO]: [AsyncWorldEdit] You have an old version of the plugin. Your version: 3.7.5, available version: 3.8.0
+[01:01:52] [Server thread/INFO]: [sleep-most] Enabling sleep-most v4.5.3*
+[01:01:52] [Server thread/INFO]: [OpGuard] Enabling OpGuard v3.2.5*
+[01:01:52] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.1.6
+[01:01:53] [Server thread/INFO]: [ClearLag] Loading modules...
+[01:01:53] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[01:01:53] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[01:01:53] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[01:01:53] [Server thread/INFO]: [SimpleSpawn-Core] Enabling SimpleSpawn-Core v1.0.3
+[01:01:53] [Thread-19/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.16]...
+[01:01:53] [Server thread/INFO]: [Shopkeepers] Enabling Shopkeepers v2.11.0
+[01:01:54] [Server thread/INFO]: [Shopkeepers] Loading data of 33 shopkeepers..
+[01:01:54] [Server thread/INFO]: [TheNewEconomy] Enabling TheNewEconomy v0.1.1.9
+[01:01:55] [Thread-19/INFO]: [ClearLag] No updates found!
+[01:01:56] [Server thread/INFO]: Loading Configurations.
+[01:01:56] [Server thread/INFO]: Initializing Configurations.
+[01:01:56] [Server thread/INFO]: Initialized config.yml
+[01:01:56] [Server thread/INFO]: Initialized commands.yml
+[01:01:56] [Server thread/INFO]: Initialized messages.yml
+[01:01:57] [Server thread/INFO]: Initialized players.yml
+[01:01:57] [Server thread/INFO]: Initialized worlds.yml
+[01:01:57] [Server thread/INFO]: [net.tnemc.libs.com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[01:01:58] [Server thread/INFO]: [net.tnemc.libs.com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[01:01:58] [Server thread/INFO]: Updating tables, please hold.
+[01:01:58] [Server thread/INFO]: Finished updating tables.
+[01:01:58] [Server thread/INFO]: [TheNewEconomy] Finished loading data!
+[01:01:58] [Server thread/INFO]: [TheNewEconomy] Finished loading data!
+[01:01:58] [Server thread/INFO]: [TheNewEconomy] The New Economy has been enabled!
+[01:01:58] [Server thread/INFO]: [EasyPrefix] Enabling EasyPrefix v1.6.6-R1
+[01:01:59] [Server thread/INFO]: [EasyPrefix] Plugin has been enabled! Version: 1.6.6-R1
+[01:01:59] [Server thread/INFO]: [EasyPrefix] If you like the plugin or you have suggestions, please write a review on spigotmc.org!
+[01:01:59] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.13.0
+[01:01:59] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
+[01:01:59] [Server thread/INFO]: [GriefPrevention] 22 total claims loaded.
+[01:02:00] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
+[01:02:00] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
+[01:02:00] [Server thread/INFO]: [GriefPrevention] Boot finished.
+[01:02:00] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v19.1
+[01:02:00] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled!
+[01:02:00] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[01:02:00] [Server thread/INFO]: --------------------
+[01:02:00] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
+[01:02:00] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[01:02:00] [Server thread/INFO]: --------------------
+[01:02:00] [Server thread/INFO]: Starting GS4 status listener
+[01:02:00] [Server thread/INFO]: Thread Query Listener started
+[01:02:00] [Server thread/INFO]: Starting remote control listener
+[01:02:00] [Server thread/INFO]: Thread RCON Listener started
+[01:02:00] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[01:02:01] [Server thread/INFO]: Running delayed init tasks
+[01:02:01] [Server thread/INFO]: [AsyncWorldEdit] Loading plugins...
+[01:02:01] [Server thread/INFO]: [CoreProtect] WorldEdit logging successfully initialized.
+[01:02:01] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
+[01:02:01] [Craft Scheduler Thread - 13 - Vault/INFO]: [Vault] Checking for Updates ... 
+[01:02:01] [Craft Scheduler Thread - 4 - LimitPillagers/INFO]: [LimitPillagers] Checking for updates...
+[01:02:02] [Server thread/INFO]: Done (36.533s)! For help, type "help"
+[01:02:02] [Server thread/INFO]: Timings Reset
+[01:02:02] [Thread-24/INFO]: [CoreProtect] No donation key found. Please check config.yml.
+[01:02:03] [Craft Scheduler Thread - 7 - LevelledMobs/INFO]: LevelledMobs: (Update Checker) You're running the latest version.
+[01:02:03] [Craft Scheduler Thread - 5 - PhantomLib/INFO]: PhantomLib: (Update Checker) You're running the latest version '1.0.4-RELEASE'.
+[01:02:03] [Thread-24/INFO]: --------------------
+[01:02:03] [Thread-24/INFO]: [CoreProtect] Version 19.2 is now available.
+[01:02:03] [Thread-24/INFO]: [CoreProtect] Download: www.coreprotect.net/download/
+[01:02:03] [Thread-24/INFO]: --------------------
+[01:02:03] [Craft Scheduler Thread - 4 - LimitPillagers/INFO]: [LimitPillagers] There is an update available ( 2.13.0 > 2.14.0 ), go download it at https://www.spigotmc.org/resources/69733
+[01:02:03] [Craft Scheduler Thread - 4 - LimitPillagers/INFO]: [LimitPillagers] Download it here: https://www.spigotmc.org/resources/69733/
+[01:02:03] [Craft Scheduler Thread - 9 - sleep-most/INFO]: UPDATE FOUND: A newer version of sleep-most is available to download!
+[01:02:06] [Craft Scheduler Thread - 13 - Vault/INFO]: [Vault] No new version available
+[01:02:07] [Craft Scheduler Thread - 11 - TheNewEconomy/INFO]: Initialized items.yml
+[01:02:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5068ms or 101 ticks behind
+[01:06:53] [User Authenticator #1/INFO]: UUID of player gtrent is 9810a7b5-dc79-490d-b62b-7a44f75765a7
+[01:06:55] [Server thread/INFO]: � Mod | gtrent joined the game
+[01:06:56] [Server thread/INFO]: gtrent[/76.187.2.111:62226] logged in with entity id 409 at ([world]148.90961813297247, 75.387136512, 185.74487453028215)
+[01:06:57] [Craft Scheduler Thread - 21 - EasyPrefix/INFO]: [EasyPrefix] A new update is available at: https://www.spigotmc.org/resources/44580/updates
+[01:08:10] [Server thread/INFO]: gtrent issued server command: /time set day
+[01:08:10] [Server thread/INFO]: [gtrent: Set the time to 1000]
+[01:09:02] [Server thread/WARN]: gtrent moved wrongly!
+[01:09:02] [Server thread/WARN]: gtrent moved wrongly!
+[01:09:04] [Server thread/WARN]: gtrent moved wrongly!
+[01:09:16] [Server thread/WARN]: gtrent moved wrongly!
+[01:09:17] [Server thread/WARN]: gtrent moved wrongly!
+[01:09:22] [Server thread/WARN]: gtrent moved wrongly!
+[01:09:24] [Server thread/WARN]: gtrent moved wrongly!
+[01:09:28] [Server thread/WARN]: gtrent moved wrongly!
+[01:09:36] [Server thread/WARN]: gtrent moved wrongly!
+[01:09:37] [Server thread/WARN]: gtrent moved wrongly!
+[01:09:39] [Server thread/WARN]: gtrent moved wrongly!
+[01:09:40] [Server thread/WARN]: gtrent moved wrongly!
+[01:09:43] [Server thread/WARN]: gtrent moved wrongly!
+[01:09:44] [Server thread/WARN]: gtrent moved wrongly!
+[01:09:45] [Server thread/WARN]: gtrent moved wrongly!
+[01:10:06] [Server thread/WARN]: gtrent moved wrongly!
+[01:10:18] [Server thread/WARN]: gtrent moved wrongly!
+[01:10:18] [Server thread/WARN]: gtrent moved wrongly!
+[01:10:20] [Server thread/WARN]: gtrent moved wrongly!
+[01:10:28] [Server thread/WARN]: gtrent moved wrongly!
+[01:10:30] [Server thread/WARN]: gtrent moved wrongly!
+[01:10:49] [Server thread/WARN]: gtrent moved wrongly!
+[01:11:00] [Server thread/WARN]: gtrent moved wrongly!
+[01:11:04] [Server thread/WARN]: gtrent moved wrongly!
+[01:11:05] [Server thread/WARN]: gtrent moved wrongly!
+[01:11:08] [Server thread/WARN]: gtrent moved wrongly!
+[01:11:08] [Server thread/WARN]: gtrent moved wrongly!
+[01:11:08] [Server thread/WARN]: gtrent moved wrongly!
+[01:11:11] [Server thread/WARN]: gtrent moved wrongly!
+[01:11:24] [Server thread/INFO]: gtrent issued server command: /tps
+[01:11:27] [Server thread/WARN]: gtrent moved wrongly!
+[01:11:53] [Server thread/INFO]: gtrent lost connection: Disconnected
+[01:11:53] [Server thread/INFO]: � Mod | gtrent left the game
+[01:17:10] [User Authenticator #2/INFO]: UUID of player gtrent is 9810a7b5-dc79-490d-b62b-7a44f75765a7
+[01:17:10] [Server thread/INFO]: � Mod | gtrent joined the game
+[01:17:10] [Server thread/INFO]: gtrent[/76.187.2.111:62258] logged in with entity id 960 at ([world]-76.17285966450991, 64.0, -9.699999988079073)
+[01:17:11] [Craft Scheduler Thread - 33 - EasyPrefix/INFO]: [EasyPrefix] A new update is available at: https://www.spigotmc.org/resources/44580/updates
+[01:17:15] [Server thread/INFO]: gtrent issued server command: /tps
+[01:17:32] [Server thread/INFO]: gtrent issued server command: /clearlag:lagg
+[01:17:56] [Server thread/INFO]: gtrent issued server command: /lagg tps
+[01:18:09] [Server thread/INFO]: gtrent issued server command: /timings
+[01:18:20] [Server thread/INFO]: gtrent lost connection: Disconnected
+[01:18:20] [Server thread/INFO]: � Mod | gtrent left the game
+[01:31:55] [AWE:Cron:undoCleanup/INFO]: [AsyncWorldEdit] Undo cleanup started...
+[01:31:55] [AWE:Cron:undoCleanup/INFO]: [AsyncWorldEdit] ...undo cleanup done.
+[02:01:56] [AWE:Cron:undoCleanup/INFO]: [AsyncWorldEdit] Undo cleanup started...
+[02:01:56] [AWE:Cron:undoCleanup/INFO]: [AsyncWorldEdit] ...undo cleanup done.
+[02:22:04] [Server thread/INFO]: Stopping the server
+[02:22:04] [Server thread/INFO]: Stopping server
+[02:22:04] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v19.1
+[02:22:04] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
+[02:22:06] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v19.1
+[02:22:07] [Server thread/INFO]: [GriefPrevention] Disabling GriefPrevention v16.13.0
+[02:22:08] [Server thread/INFO]: [GriefPrevention] GriefPrevention disabled.
+[02:22:08] [Server thread/INFO]: [EasyPrefix] Disabling EasyPrefix v1.6.6-R1
+[02:22:09] [Server thread/INFO]: [TheNewEconomy] Disabling TheNewEconomy v0.1.1.9
+[02:22:10] [Server thread/INFO]: [net.tnemc.libs.com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+[02:22:11] [Server thread/INFO]: [net.tnemc.libs.com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+[02:22:11] [Server thread/INFO]: [TheNewEconomy] The New Economy has been disabled!
+[02:22:11] [Server thread/INFO]: [LevelledMobs] Disabling LevelledMobs v1.34.0-RELEASE
+[02:22:11] [Server thread/INFO]: [Shopkeepers] Disabling Shopkeepers v2.11.0
+[02:22:12] [Server thread/INFO]: [AsyncWorldEdit] Disabling AsyncWorldEdit v3.7.5
+[02:22:12] [Server thread/INFO]: [AsyncWorldEdit] Unloading plugins...
+[02:22:13] [Server thread/INFO]: [AsyncWorldEdit] Disable
+[02:22:13] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.0-beta-02+d10d7d6
+[02:22:13] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[02:22:13] [Server thread/INFO]: [SimpleSpawn-Core] Disabling SimpleSpawn-Core v1.0.3
+[02:22:13] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[02:22:13] [Server thread/INFO]: [PhantomLib] Disabling PhantomLib v1.0.4-RELEASE
+[02:22:13] [Server thread/INFO]: PhantomLib: (Shutdown) +---+ (Disable Started) +---+
+[02:22:13] [Server thread/INFO]: PhantomLib: (Shutdown - 1/1) Unregistering listeners..
+[02:22:13] [Server thread/INFO]: PhantomLib: (Shutdown) +---+ (Disable Complete, took 0ms) +---+
+[02:22:13] [Server thread/INFO]: [LimitPillagers] Disabling LimitPillagers v2.13.0
+[02:22:13] [Server thread/INFO]: [LimitPillagers] I Hope this plugin helped you with Pillager lag! - HexedHero
+[02:22:13] [Server thread/INFO]: [LimitPillagers] LimitPillagers v2.13.0 Disabled in 0 ms
+[02:22:13] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.1.6
+[02:22:13] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
+[02:22:13] [Server thread/INFO]: [OpGuard] Disabling OpGuard v3.2.5
+[02:22:13] [Server thread/INFO]: [sleep-most] Disabling sleep-most v4.5.3
+[02:22:13] [Server thread/INFO]: [CubCustomDrops] Disabling CubCustomDrops v5.5.0
+[02:22:14] [Server thread/INFO]: [FastLeafDecay] Disabling FastLeafDecay v1.0
+[02:22:14] [Server thread/INFO]: [AFK] Disabling AFK v4.5.5
+[02:22:14] [Server thread/INFO]: [JukeLooper] Disabling JukeLooper v1.3
+[02:22:14] [Server thread/INFO]: [SetHome] Disabling SetHome v5.1.2
+[02:22:14] [Server thread/INFO]: [SimpleTpa] Disabling SimpleTpa v4.1
+[02:22:14] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
+[02:22:14] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been disabled on version 4.0
+[02:22:14] [Server thread/INFO]: [SimpleTpa] SimpleTpa is sponsored by PloxHost | 1$/GB | The Cheapest Hosting
+[02:22:15] [Server thread/INFO]: Saving players
+[02:22:15] [Server thread/INFO]: Saving worlds
+[02:22:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[02:22:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:22:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[02:22:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:22:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[02:22:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:22:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:22:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:22:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:22:23] [Server thread/INFO]: Flushing Chunk IO
+[02:22:23] [Server thread/INFO]: Closing Thread Pool
+[02:22:24] [Server thread/INFO]: Closing Server
